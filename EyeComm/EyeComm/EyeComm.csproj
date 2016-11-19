@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Diseños\LetrasA-E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasA-E.Designer.cs">
+      <DependentUpon>LetrasA-E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diseños\LetrasF-J.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasF-J.Designer.cs">
+      <DependentUpon>LetrasF-J.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diseños\LetrasK-Ñ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasK-Ñ.Designer.cs">
+      <DependentUpon>LetrasK-Ñ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diseños\LetrasO-T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasO-T.Designer.cs">
+      <DependentUpon>LetrasO-T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diseños\LetrasV-Z.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasV-Z.Designer.cs">
+      <DependentUpon>LetrasV-Z.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +84,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Diseños\LetrasA-E.resx">
+      <DependentUpon>LetrasA-E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diseños\LetrasF-J.resx">
+      <DependentUpon>LetrasF-J.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diseños\LetrasK-Ñ.resx">
+      <DependentUpon>LetrasK-Ñ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diseños\LetrasO-T.resx">
+      <DependentUpon>LetrasO-T.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +107,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,9 +123,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Diseños\" />
     <Folder Include="Estructuras\" />
     <Folder Include="Mirada\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Typicons_e026%280%29_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linecons_e006%280%29_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocina1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Typicons_e006%281%29_256.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
