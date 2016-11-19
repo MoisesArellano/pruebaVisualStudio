@@ -36,7 +36,7 @@
             this.LetraL = new System.Windows.Forms.Button();
             this.LetraÑ = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.txtFJ = new System.Windows.Forms.TextBox();
+            this.txtKÑ = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnBorrarPalabra = new System.Windows.Forms.Button();
@@ -160,20 +160,20 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.txtFJ);
+            this.flowLayoutPanel1.Controls.Add(this.txtKÑ);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(658, 115);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // txtFJ
+            // txtKÑ
             // 
-            this.txtFJ.Location = new System.Drawing.Point(3, 3);
-            this.txtFJ.Multiline = true;
-            this.txtFJ.Name = "txtFJ";
-            this.txtFJ.Size = new System.Drawing.Size(653, 100);
-            this.txtFJ.TabIndex = 0;
+            this.txtKÑ.Location = new System.Drawing.Point(3, 3);
+            this.txtKÑ.Multiline = true;
+            this.txtKÑ.Name = "txtKÑ";
+            this.txtKÑ.Size = new System.Drawing.Size(653, 100);
+            this.txtKÑ.TabIndex = 0;
             // 
             // tableLayoutPanel3
             // 
@@ -280,7 +280,7 @@
         private System.Windows.Forms.Button LetraL;
         private System.Windows.Forms.Button LetraÑ;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.TextBox txtFJ;
+        private System.Windows.Forms.TextBox txtKÑ;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnBorrarPalabra;

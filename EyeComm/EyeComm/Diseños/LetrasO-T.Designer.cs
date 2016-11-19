@@ -36,13 +36,13 @@
             this.LetraP = new System.Windows.Forms.Button();
             this.LetraS = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.txtFJ = new System.Windows.Forms.TextBox();
+            this.txtOT = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.LetraT = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnBorrarPalabra = new System.Windows.Forms.Button();
             this.btnVoz = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
-            this.LetraT = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -162,20 +162,20 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.txtFJ);
+            this.flowLayoutPanel1.Controls.Add(this.txtOT);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(658, 115);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // txtFJ
+            // txtOT
             // 
-            this.txtFJ.Location = new System.Drawing.Point(3, 3);
-            this.txtFJ.Multiline = true;
-            this.txtFJ.Name = "txtFJ";
-            this.txtFJ.Size = new System.Drawing.Size(653, 100);
-            this.txtFJ.TabIndex = 0;
+            this.txtOT.Location = new System.Drawing.Point(3, 3);
+            this.txtOT.Multiline = true;
+            this.txtOT.Name = "txtOT";
+            this.txtOT.Size = new System.Drawing.Size(653, 100);
+            this.txtOT.TabIndex = 0;
             // 
             // tableLayoutPanel3
             // 
@@ -194,6 +194,20 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(658, 124);
             this.tableLayoutPanel3.TabIndex = 2;
+            // 
+            // LetraT
+            // 
+            this.LetraT.BackColor = System.Drawing.Color.White;
+            this.LetraT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraT.FlatAppearance.BorderSize = 3;
+            this.LetraT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraT.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraT.Location = new System.Drawing.Point(548, 3);
+            this.LetraT.Name = "LetraT";
+            this.LetraT.Size = new System.Drawing.Size(107, 117);
+            this.LetraT.TabIndex = 10;
+            this.LetraT.Text = "T";
+            this.LetraT.UseVisualStyleBackColor = false;
             // 
             // btnBorrar
             // 
@@ -255,20 +269,6 @@
             this.btnRegresar.TabIndex = 3;
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
-            // LetraT
-            // 
-            this.LetraT.BackColor = System.Drawing.Color.White;
-            this.LetraT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraT.FlatAppearance.BorderSize = 3;
-            this.LetraT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraT.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraT.Location = new System.Drawing.Point(548, 3);
-            this.LetraT.Name = "LetraT";
-            this.LetraT.Size = new System.Drawing.Size(107, 117);
-            this.LetraT.TabIndex = 10;
-            this.LetraT.Text = "T";
-            this.LetraT.UseVisualStyleBackColor = false;
-            // 
             // LetrasO_T
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -296,7 +296,7 @@
         private System.Windows.Forms.Button LetraP;
         private System.Windows.Forms.Button LetraS;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.TextBox txtFJ;
+        private System.Windows.Forms.TextBox txtOT;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnBorrarPalabra;
