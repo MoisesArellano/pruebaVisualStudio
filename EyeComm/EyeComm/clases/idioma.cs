@@ -8,5 +8,7 @@ namespace EyeComm.clases
 {
     class idioma
     {
+        int a = 0;
     }
+
 }
