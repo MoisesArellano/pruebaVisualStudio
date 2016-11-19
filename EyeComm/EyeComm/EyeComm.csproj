@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Diseños\LetrasO-T.resx">
       <DependentUpon>LetrasO-T.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Diseños\LetrasV-Z.resx">
+      <DependentUpon>LetrasV-Z.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,9 +134,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\linecons_e006%280%29_128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bocina.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bocina1.png" />
