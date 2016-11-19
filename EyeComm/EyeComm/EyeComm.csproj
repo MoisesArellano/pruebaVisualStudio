@@ -136,9 +136,6 @@
     <None Include="Resources\linecons_e006%280%29_128.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bocina.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bocina1.png" />
   </ItemGroup>
   <ItemGroup>
