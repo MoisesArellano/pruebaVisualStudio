@@ -70,6 +70,12 @@
     <Compile Include="Diseños\LetrasO-T.Designer.cs">
       <DependentUpon>LetrasO-T.cs</DependentUpon>
     </Compile>
+    <Compile Include="Diseños\LetrasV-Z.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diseños\LetrasV-Z.Designer.cs">
+      <DependentUpon>LetrasV-Z.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

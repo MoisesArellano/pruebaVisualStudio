@@ -30,11 +30,11 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.LetraN = new System.Windows.Forms.Button();
-            this.LetraM = new System.Windows.Forms.Button();
-            this.LetraK = new System.Windows.Forms.Button();
-            this.LetraL = new System.Windows.Forms.Button();
-            this.LetraÑ = new System.Windows.Forms.Button();
+            this.LetraR = new System.Windows.Forms.Button();
+            this.LetraQ = new System.Windows.Forms.Button();
+            this.LetraO = new System.Windows.Forms.Button();
+            this.LetraP = new System.Windows.Forms.Button();
+            this.LetraS = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.txtFJ = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -42,7 +42,7 @@
             this.btnBorrarPalabra = new System.Windows.Forms.Button();
             this.btnVoz = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.LetraT = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -75,12 +75,12 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.Controls.Add(this.LetraN, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.LetraM, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.LetraK, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.LetraL, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.LetraÑ, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 5, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraR, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraQ, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraO, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraP, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraS, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LetraT, 5, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 124);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -89,76 +89,76 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(658, 123);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // LetraN
+            // LetraR
             // 
-            this.LetraN.BackColor = System.Drawing.Color.White;
-            this.LetraN.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraN.FlatAppearance.BorderSize = 3;
-            this.LetraN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraN.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraN.Location = new System.Drawing.Point(330, 3);
-            this.LetraN.Name = "LetraN";
-            this.LetraN.Size = new System.Drawing.Size(103, 117);
-            this.LetraN.TabIndex = 3;
-            this.LetraN.Text = "N";
-            this.LetraN.UseVisualStyleBackColor = false;
+            this.LetraR.BackColor = System.Drawing.Color.White;
+            this.LetraR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraR.FlatAppearance.BorderSize = 3;
+            this.LetraR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraR.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraR.Location = new System.Drawing.Point(330, 3);
+            this.LetraR.Name = "LetraR";
+            this.LetraR.Size = new System.Drawing.Size(103, 117);
+            this.LetraR.TabIndex = 3;
+            this.LetraR.Text = "R";
+            this.LetraR.UseVisualStyleBackColor = false;
             // 
-            // LetraM
+            // LetraQ
             // 
-            this.LetraM.BackColor = System.Drawing.Color.White;
-            this.LetraM.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraM.FlatAppearance.BorderSize = 3;
-            this.LetraM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraM.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraM.Location = new System.Drawing.Point(221, 3);
-            this.LetraM.Name = "LetraM";
-            this.LetraM.Size = new System.Drawing.Size(103, 117);
-            this.LetraM.TabIndex = 2;
-            this.LetraM.Text = "M";
-            this.LetraM.UseVisualStyleBackColor = false;
+            this.LetraQ.BackColor = System.Drawing.Color.White;
+            this.LetraQ.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraQ.FlatAppearance.BorderSize = 3;
+            this.LetraQ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraQ.Location = new System.Drawing.Point(221, 3);
+            this.LetraQ.Name = "LetraQ";
+            this.LetraQ.Size = new System.Drawing.Size(103, 117);
+            this.LetraQ.TabIndex = 2;
+            this.LetraQ.Text = "Q";
+            this.LetraQ.UseVisualStyleBackColor = false;
             // 
-            // LetraK
+            // LetraO
             // 
-            this.LetraK.BackColor = System.Drawing.Color.White;
-            this.LetraK.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraK.FlatAppearance.BorderSize = 3;
-            this.LetraK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraK.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraK.Location = new System.Drawing.Point(3, 3);
-            this.LetraK.Name = "LetraK";
-            this.LetraK.Size = new System.Drawing.Size(103, 117);
-            this.LetraK.TabIndex = 1;
-            this.LetraK.TabStop = false;
-            this.LetraK.Text = "K";
-            this.LetraK.UseVisualStyleBackColor = false;
+            this.LetraO.BackColor = System.Drawing.Color.White;
+            this.LetraO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraO.FlatAppearance.BorderSize = 3;
+            this.LetraO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraO.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraO.Location = new System.Drawing.Point(3, 3);
+            this.LetraO.Name = "LetraO";
+            this.LetraO.Size = new System.Drawing.Size(103, 117);
+            this.LetraO.TabIndex = 1;
+            this.LetraO.TabStop = false;
+            this.LetraO.Text = "O";
+            this.LetraO.UseVisualStyleBackColor = false;
             // 
-            // LetraL
+            // LetraP
             // 
-            this.LetraL.BackColor = System.Drawing.Color.White;
-            this.LetraL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraL.FlatAppearance.BorderSize = 3;
-            this.LetraL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraL.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraL.Location = new System.Drawing.Point(112, 3);
-            this.LetraL.Name = "LetraL";
-            this.LetraL.Size = new System.Drawing.Size(103, 117);
-            this.LetraL.TabIndex = 0;
-            this.LetraL.Text = "L";
-            this.LetraL.UseVisualStyleBackColor = false;
+            this.LetraP.BackColor = System.Drawing.Color.White;
+            this.LetraP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraP.FlatAppearance.BorderSize = 3;
+            this.LetraP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraP.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraP.Location = new System.Drawing.Point(112, 3);
+            this.LetraP.Name = "LetraP";
+            this.LetraP.Size = new System.Drawing.Size(103, 117);
+            this.LetraP.TabIndex = 0;
+            this.LetraP.Text = "P";
+            this.LetraP.UseVisualStyleBackColor = false;
             // 
-            // LetraÑ
+            // LetraS
             // 
-            this.LetraÑ.BackColor = System.Drawing.Color.White;
-            this.LetraÑ.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LetraÑ.FlatAppearance.BorderSize = 3;
-            this.LetraÑ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LetraÑ.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LetraÑ.Location = new System.Drawing.Point(439, 3);
-            this.LetraÑ.Name = "LetraÑ";
-            this.LetraÑ.Size = new System.Drawing.Size(103, 117);
-            this.LetraÑ.TabIndex = 9;
-            this.LetraÑ.Text = "Ñ";
-            this.LetraÑ.UseVisualStyleBackColor = false;
+            this.LetraS.BackColor = System.Drawing.Color.White;
+            this.LetraS.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraS.FlatAppearance.BorderSize = 3;
+            this.LetraS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraS.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraS.Location = new System.Drawing.Point(439, 3);
+            this.LetraS.Name = "LetraS";
+            this.LetraS.Size = new System.Drawing.Size(103, 117);
+            this.LetraS.TabIndex = 9;
+            this.LetraS.Text = "S";
+            this.LetraS.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel1
             // 
@@ -255,16 +255,19 @@
             this.btnRegresar.TabIndex = 3;
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // LetraT
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(548, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "O";
-            this.button1.UseVisualStyleBackColor = false;
+            this.LetraT.BackColor = System.Drawing.Color.White;
+            this.LetraT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LetraT.FlatAppearance.BorderSize = 3;
+            this.LetraT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LetraT.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LetraT.Location = new System.Drawing.Point(548, 3);
+            this.LetraT.Name = "LetraT";
+            this.LetraT.Size = new System.Drawing.Size(107, 117);
+            this.LetraT.TabIndex = 10;
+            this.LetraT.Text = "T";
+            this.LetraT.UseVisualStyleBackColor = false;
             // 
             // LetrasO_T
             // 
@@ -287,11 +290,11 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Button LetraN;
-        private System.Windows.Forms.Button LetraM;
-        private System.Windows.Forms.Button LetraK;
-        private System.Windows.Forms.Button LetraL;
-        private System.Windows.Forms.Button LetraÑ;
+        private System.Windows.Forms.Button LetraR;
+        private System.Windows.Forms.Button LetraQ;
+        private System.Windows.Forms.Button LetraO;
+        private System.Windows.Forms.Button LetraP;
+        private System.Windows.Forms.Button LetraS;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox txtFJ;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
@@ -299,6 +302,6 @@
         private System.Windows.Forms.Button btnBorrarPalabra;
         private System.Windows.Forms.Button btnVoz;
         private System.Windows.Forms.Button btnRegresar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LetraT;
     }
 }
